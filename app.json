@@ -1,0 +1,17 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "sps-game",
+  "scripts": {
+    "postdeploy": "npm i && npm build && serve -s build"
+  },
+  "stack": "heroku-18"
+}
