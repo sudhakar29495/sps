@@ -7,9 +7,21 @@
   align-items: center;
   justify-content: center;
   /* background-image: linear-gradient(90deg, #e33780 0, #fca33e 100%); */
+  .reset-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: #FD4677;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
   img {
-    height: 75vh;
-    width: 65vw;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
   }
 }
 
